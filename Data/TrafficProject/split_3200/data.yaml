@@ -1,0 +1,4 @@
+path: /Users/maksymchekhun/Documents/Documents - Maksym’s MacBook Air/Howest/SecondSemester/AdvancedAI/PROJECT/Data/TrafficProject/split_3200
+train: images/train
+val: images/test
+names: ['Bus_Truck', 'Cars', 'Pedestrian', 'Two_Wheeler']
