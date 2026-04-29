@@ -1,0 +1,3 @@
+model,data_used,evaluation,precision,recall,f1,map50,map50_95
+Pretrained YOLOv8n,COCO pretrained weights only,64-image held-out baseline subset,0.0667,0.0039,0.0073,,
+Fine-tuned YOLOv8n,"3,200 annotated aerial traffic images",816-image held-out test split,0.8605,0.5503,,0.5892,0.4932

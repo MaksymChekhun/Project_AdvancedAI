@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /Users/maksymchekhun/Documents/Documents - Maksym’s MacBook Air/Howest/SecondSemester/AdvancedAI/PROJECT/Data/TrafficProject/split_3200/data.yaml
+data: C:\Users\Admin\Desktop\Project AdvanceAi\Project_AdvancedAI\Data\TrafficProject\split_3200\data.yaml
 epochs: 50
 time: null
 patience: 100
@@ -10,9 +10,9 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: cpu
+device: null
 workers: 8
-project: /Users/maksymchekhun/Documents/Documents - Maksym’s MacBook Air/Howest/SecondSemester/AdvancedAI/PROJECT/Data/TrafficProject/runs
+project: C:\Users\Admin\Desktop\Project AdvanceAi\Project_AdvancedAI\Data\TrafficProject\runs
 name: yolov8n_finetuned_topdown_50e
 exist_ok: true
 pretrained: true
@@ -29,8 +29,7 @@ amp: true
 fraction: 1.0
 profile: false
 freeze: null
-multi_scale: 0.0
-compile: false
+multi_scale: false
 overlap_mask: true
 mask_ratio: 4
 dropout: 0.0
@@ -43,7 +42,6 @@ max_det: 300
 half: false
 dnn: false
 plots: true
-end2end: null
 source: null
 vid_stride: 1
 stream_buffer: false
@@ -80,12 +78,9 @@ warmup_momentum: 0.8
 warmup_bias_lr: 0.1
 box: 7.5
 cls: 0.5
-cls_pw: 0.0
 dfl: 1.5
 pose: 12.0
 kobj: 1.0
-rle: 1.0
-angle: 1.0
 nbs: 64
 hsv_h: 0.015
 hsv_s: 0.7
@@ -107,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /Users/maksymchekhun/Documents/Documents - Maksym’s MacBook Air/Howest/SecondSemester/AdvancedAI/PROJECT/Data/TrafficProject/runs/yolov8n_finetuned_topdown_50e
+save_dir: C:\Users\Admin\Desktop\Project AdvanceAi\Project_AdvancedAI\Data\TrafficProject\runs\yolov8n_finetuned_topdown_50e
