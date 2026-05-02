@@ -1,0 +1,71 @@
+{
+  "source_csv_rows": 2362666,
+  "first_annotated_frame": 6,
+  "last_annotated_frame": 24908,
+  "sample_every_frames": 30,
+  "expected_sampled_frames": 831,
+  "labeled_sampled_frames": 831,
+  "source_class_counts_on_sampled_frames": {
+    "car": 78186,
+    "bus": 365,
+    "trunk": 272
+  },
+  "clean_class_counts": {
+    "car": 78186,
+    "bus": 365,
+    "truck": 272
+  },
+  "skipped_counts": {},
+  "subset_stats": {
+    "train": {
+      "frames": 582,
+      "boxes": 55186,
+      "class_counts": {
+        "car": 54744,
+        "bus": 251,
+        "truck": 191
+      }
+    },
+    "val": {
+      "frames": 166,
+      "boxes": 15664,
+      "class_counts": {
+        "car": 15541,
+        "bus": 75,
+        "truck": 48
+      }
+    },
+    "test": {
+      "frames": 83,
+      "boxes": 7973,
+      "class_counts": {
+        "car": 7901,
+        "bus": 39,
+        "truck": 33
+      }
+    }
+  },
+  "frame_to_subset_sample": {
+    "6": "val",
+    "36": "train",
+    "66": "train",
+    "96": "val",
+    "126": "train",
+    "156": "train",
+    "186": "test",
+    "216": "val",
+    "246": "train",
+    "276": "train"
+  },
+  "image_size": {
+    "width": 1280,
+    "height": 720
+  },
+  "annotation_format": "YOLO txt: class_id x_center y_center width height, normalized 0-1",
+  "class_names": [
+    "car",
+    "bus",
+    "truck"
+  ],
+  "note": "The source CSV class 'trunk' is normalized to dataset class 'truck'."
+}

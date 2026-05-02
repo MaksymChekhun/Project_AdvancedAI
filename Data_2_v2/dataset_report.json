@@ -1,0 +1,84 @@
+{
+  "dataset_version": "Data_2_v2_combined",
+  "sources": {
+    "zhandong_road1": {
+      "source_csv_rows": 2362666,
+      "first_annotated_frame": 6,
+      "last_annotated_frame": 24908,
+      "expected_sampled_frames": 831,
+      "labeled_sampled_frames": 831,
+      "source_class_counts_on_sampled_frames": {
+        "car": 78186,
+        "bus": 365,
+        "trunk": 272
+      },
+      "clean_class_counts": {
+        "car": 78186,
+        "bus": 365,
+        "truck": 272
+      },
+      "skipped_counts": {}
+    },
+    "zhandong_road2": {
+      "source_csv_rows": 1092047,
+      "first_annotated_frame": 6,
+      "last_annotated_frame": 12960,
+      "expected_sampled_frames": 432,
+      "labeled_sampled_frames": 432,
+      "source_class_counts_on_sampled_frames": {
+        "car": 36237,
+        "bus": 134,
+        "trunk": 9
+      },
+      "clean_class_counts": {
+        "car": 36237,
+        "bus": 134,
+        "truck": 9
+      },
+      "skipped_counts": {}
+    }
+  },
+  "sample_every_frames": 30,
+  "image_size": {
+    "width": 1280,
+    "height": 720
+  },
+  "classes": [
+    "car",
+    "bus",
+    "truck"
+  ],
+  "annotation_format": "YOLO txt: class_id x_center y_center width height, normalized 0-1",
+  "subset_stats": {
+    "train": {
+      "images": 884,
+      "boxes": 80655,
+      "class_counts": {
+        "car": 80122,
+        "bus": 339,
+        "truck": 194
+      }
+    },
+    "val": {
+      "images": 252,
+      "boxes": 23013,
+      "class_counts": {
+        "car": 22857,
+        "bus": 104,
+        "truck": 52
+      }
+    },
+    "test": {
+      "images": 127,
+      "boxes": 11535,
+      "class_counts": {
+        "car": 11444,
+        "bus": 56,
+        "truck": 35
+      }
+    }
+  },
+  "total_images": 1263,
+  "total_boxes": 115203,
+  "note": "The source CSV class 'trunk' is normalized to dataset class 'truck'."
+}

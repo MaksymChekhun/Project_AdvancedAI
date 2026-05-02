@@ -1,0 +1,30 @@
+{
+  "west_in": {
+    "p1": [285, 385],
+    "p2": [285, 645],
+    "axis": "x",
+    "direction": 1,
+    "description": "vehicles entering from the west/left side"
+  },
+  "east_in": {
+    "p1": [885, 245],
+    "p2": [885, 500],
+    "axis": "x",
+    "direction": -1,
+    "description": "vehicles entering from the east/right side"
+  },
+  "north_in": {
+    "p1": [430, 160],
+    "p2": [780, 160],
+    "axis": "y",
+    "direction": 1,
+    "description": "vehicles entering from the north/top side"
+  },
+  "south_in": {
+    "p1": [560, 705],
+    "p2": [895, 705],
+    "axis": "y",
+    "direction": -1,
+    "description": "vehicles entering from the south/bottom side"
+  }
+}
