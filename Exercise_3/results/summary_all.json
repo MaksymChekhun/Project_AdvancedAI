@@ -3,12 +3,12 @@
   "images": 1263,
   "detections": 118418,
   "total_crossings": {
-    "west_in": 226,
-    "east_in": 305,
-    "north_in": 267,
-    "south_in": 94
+    "west_in": 202,
+    "east_in": 302,
+    "north_in": 278,
+    "south_in": 181
   },
-  "total_flow": 892,
+  "total_flow": 963,
   "bin_seconds": 10,
   "forecast_steps": 360,
   "outputs": {

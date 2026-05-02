@@ -9,13 +9,3 @@ zhandong_road1,south_in,naive_persistence,1.1764705882352942,1.5339299776947408
 zhandong_road1,south_in,"ARIMA(1, 0, 1)",1.1511120471424845,1.3901947876473895
 zhandong_road1,total_flow,naive_persistence,2.176470588235294,3.0582578662484607
 zhandong_road1,total_flow,"ARIMA(1, 0, 1)",2.5230479152958476,3.158085224973197
-zhandong_road2,west_in,naive_persistence,0.5555555555555556,1.0
-zhandong_road2,west_in,"ARIMA(1, 0, 1)",1.3779092510312436,1.4600415822811539
-zhandong_road2,east_in,naive_persistence,1.6666666666666667,2.0275875100994063
-zhandong_road2,east_in,"ARIMA(1, 0, 1)",1.2970927436629403,1.492596560287389
-zhandong_road2,north_in,naive_persistence,1.4444444444444444,1.5275252316519468
-zhandong_road2,north_in,"ARIMA(1, 0, 1)",1.155211253907454,1.3382077461384843
-zhandong_road2,south_in,naive_persistence,1.5555555555555556,1.8856180831641267
-zhandong_road2,south_in,"ARIMA(1, 0, 1)",1.1679537829999478,1.5487246506631174
-zhandong_road2,total_flow,naive_persistence,3.2222222222222223,3.7859388972001824
-zhandong_road2,total_flow,"ARIMA(1, 0, 1)",2.832868362369238,3.387244501259651

@@ -1,0 +1,21 @@
+{
+  "source": "zhandong_road1",
+  "images": 831,
+  "detections": 81390,
+  "total_crossings": {
+    "west_in": 144,
+    "east_in": 201,
+    "north_in": 175,
+    "south_in": 115
+  },
+  "total_flow": 635,
+  "bin_seconds": 10,
+  "forecast_steps": 360,
+  "outputs": {
+    "overlay": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\counting_lines_overlay_zhandong_road1.jpg",
+    "detections": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\detections_zhandong_road1.csv",
+    "flow_frame_level": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\flow_frame_level_zhandong_road1.csv",
+    "flow_aggregated": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\flow_10s_zhandong_road1.csv",
+    "forecast_metrics": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\forecast_metrics_zhandong_road1.csv"
+  }
+}

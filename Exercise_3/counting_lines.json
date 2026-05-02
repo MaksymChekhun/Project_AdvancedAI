@@ -1,30 +1,30 @@
 {
   "west_in": {
-    "p1": [285, 385],
-    "p2": [285, 645],
+    "p1": [355, 270],
+    "p2": [355, 500],
     "axis": "x",
     "direction": 1,
-    "description": "vehicles entering from the west/left side"
+    "description": "vehicles entering from the west/left side, placed near the west approach stop line"
   },
   "east_in": {
-    "p1": [885, 245],
-    "p2": [885, 500],
+    "p1": [885, 210],
+    "p2": [885, 490],
     "axis": "x",
     "direction": -1,
-    "description": "vehicles entering from the east/right side"
+    "description": "vehicles entering from the east/right side, placed near the east approach stop line"
   },
   "north_in": {
-    "p1": [430, 160],
-    "p2": [780, 160],
+    "p1": [420, 190],
+    "p2": [770, 190],
     "axis": "y",
     "direction": 1,
-    "description": "vehicles entering from the north/top side"
+    "description": "vehicles entering from the north/top side, placed just before the junction"
   },
   "south_in": {
-    "p1": [560, 705],
-    "p2": [895, 705],
+    "p1": [450, 620],
+    "p2": [790, 620],
     "axis": "y",
     "direction": -1,
-    "description": "vehicles entering from the south/bottom side"
+    "description": "vehicles entering from the south/bottom side, moved upward to the south approach entrance"
   }
 }
