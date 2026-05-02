@@ -1,0 +1,9 @@
+path: C:/Users/Admin/Desktop/Project AdvanceAi/Project_AdvancedAI/Data_2_v2
+train: C:/Users/Admin/Desktop/Project AdvanceAi/Project_AdvancedAI/Exercise_2/train_rare_boost.txt
+val: images/val
+test: images/test
+
+names:
+  0: car
+  1: bus
+  2: truck

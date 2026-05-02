@@ -192,7 +192,11 @@ def track_and_count(
 
     for source_id, source_images in image_df.groupby("source_id"):
         active_tracks.clear()
-        for frame in sorted(source_images["frame"].unique()):
+        # The dataset keeps original video frame IDs, sampled every N frames
+        # (for example 36, 66, 96...). Tracking should use the sequential image
+        # index, not the raw frame-number gap, otherwise every vehicle track is
+        # discarded between sampled frames.
+        for frame_index, frame in enumerate(sorted(source_images["frame"].unique())):
             frame_dets = detections_by_key.get((source_id, int(frame)), [])
             counts = {"source_id": source_id, "frame": int(frame), **{name: 0 for name in lines}}
             assigned_tracks = set()
@@ -208,7 +212,7 @@ def track_and_count(
                         continue
                     if track["class_id"] != det["class_id"]:
                         continue
-                    if int(frame) - track["last_frame"] > max_missed_frames + 1:
+                    if frame_index - track["last_index"] > max_missed_frames + 1:
                         continue
                     distance = float(np.linalg.norm(center - np.asarray(track["center"])))
                     if distance < best_distance:
@@ -233,6 +237,7 @@ def track_and_count(
                 active_tracks[best_track_id] = {
                     "center": (det["cx"], det["cy"]),
                     "last_frame": int(frame),
+                    "last_index": frame_index,
                     "class_id": det["class_id"],
                     "counted_lines": active_tracks.get(best_track_id, {}).get("counted_lines", set()),
                 }
@@ -251,7 +256,7 @@ def track_and_count(
                 )
 
             for track_id in list(active_tracks):
-                if int(frame) - active_tracks[track_id]["last_frame"] > max_missed_frames:
+                if frame_index - active_tracks[track_id]["last_index"] > max_missed_frames:
                     del active_tracks[track_id]
 
             counts["total_flow"] = sum(counts[name] for name in lines)

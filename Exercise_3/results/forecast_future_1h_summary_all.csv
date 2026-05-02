@@ -1,0 +1,11 @@
+source_id,series,model,predicted_1h_total_crossings,avg_per_10s_bin,first_10min_total,last_10min_total,observed_total_crossings,observed_avg_per_10s_bin,observed_bins
+zhandong_road1,west_in,"ARIMA(1, 0, 1)",657.8,1.827,109.5,109.7,160,1.905,84
+zhandong_road1,east_in,"ARIMA(1, 0, 1)",870.4,2.418,142.6,145.6,202,2.405,84
+zhandong_road1,north_in,"ARIMA(1, 0, 1)",705.6,1.96,117.3,117.7,168,2.0,84
+zhandong_road1,south_in,"ARIMA(1, 0, 1)",225.6,0.627,37.1,37.7,61,0.726,84
+zhandong_road1,total_flow,"ARIMA(1, 0, 1)",2482.2,6.895,412.0,414.0,591,7.036,84
+zhandong_road2,west_in,"ARIMA(1, 0, 1)",548.7,1.524,91.1,91.5,66,1.5,44
+zhandong_road2,east_in,"ARIMA(1, 0, 1)",830.2,2.306,137.7,138.5,103,2.341,44
+zhandong_road2,north_in,"ARIMA(1, 0, 1)",812.3,2.256,135.0,135.5,99,2.25,44
+zhandong_road2,south_in,"ARIMA(1, 0, 1)",241.6,0.671,39.9,40.4,33,0.75,44
+zhandong_road2,total_flow,"ARIMA(1, 0, 1)",2448.2,6.801,407.4,408.2,301,6.841,44

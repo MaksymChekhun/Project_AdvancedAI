@@ -1,0 +1,340 @@
+{
+  "per_iou": {
+    "0.5": {
+      "precision": 0.05555555555555555,
+      "recall": 0.00034677069787602947,
+      "f1": 0.0006892392521754114,
+      "mAP": 0.00026402640264026406,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.058823529411764705,
+          "recall": 0.0003495281370150297,
+          "f1": 0.0006949270326615704,
+          "ap": 0.0007920792079207921
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.55": {
+      "precision": 0.041666666666666664,
+      "recall": 0.0002600780234070221,
+      "f1": 0.0005169294391315585,
+      "mAP": 0.000198019801980198,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.04411764705882353,
+          "recall": 0.0002621461027612723,
+          "f1": 0.000521195274496178,
+          "ap": 0.000594059405940594
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.6": {
+      "precision": 0.027777777777777776,
+      "recall": 0.00017338534893801473,
+      "f1": 0.0003446196260877057,
+      "mAP": 0.00013201320132013203,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.029411764705882353,
+          "recall": 0.00017476406850751484,
+          "f1": 0.0003474635163307852,
+          "ap": 0.00039603960396039607
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.65": {
+      "precision": 0.013888888888888888,
+      "recall": 8.669267446900737e-05,
+      "f1": 0.00017230981304385286,
+      "mAP": 6.600660066006602e-05,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.014705882352941176,
+          "recall": 8.738203425375742e-05,
+          "f1": 0.0001737317581653926,
+          "ap": 0.00019801980198019803
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.7": {
+      "precision": 0.013888888888888888,
+      "recall": 8.669267446900737e-05,
+      "f1": 0.00017230981304385286,
+      "mAP": 6.600660066006602e-05,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.014705882352941176,
+          "recall": 8.738203425375742e-05,
+          "f1": 0.0001737317581653926,
+          "ap": 0.00019801980198019803
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.75": {
+      "precision": 0.013888888888888888,
+      "recall": 8.669267446900737e-05,
+      "f1": 0.00017230981304385286,
+      "mAP": 6.600660066006602e-05,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.014705882352941176,
+          "recall": 8.738203425375742e-05,
+          "f1": 0.0001737317581653926,
+          "ap": 0.00019801980198019803
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.8": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP": 0.0,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.85": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP": 0.0,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP": 0.0,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    },
+    "0.95": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP": 0.0,
+      "per_class": {
+        "car": {
+          "ground_truth": 11444,
+          "predictions": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "bus": {
+          "ground_truth": 56,
+          "predictions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        },
+        "truck": {
+          "ground_truth": 35,
+          "predictions": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap": 0.0
+        }
+      }
+    }
+  },
+  "classes": [
+    "car",
+    "bus",
+    "truck"
+  ],
+  "summary": {
+    "precision_iou50": 0.05555555555555555,
+    "recall_iou50": 0.00034677069787602947,
+    "f1_iou50": 0.0006892392521754114,
+    "mAP50": 0.00026402640264026406,
+    "mAP50_95": 7.920792079207921e-05
+  },
+  "weights": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Data\\yolov8n.pt",
+  "test_images": 127,
+  "predictions_after_class_filter": 72,
+  "remapped_coco_classes": true
+}

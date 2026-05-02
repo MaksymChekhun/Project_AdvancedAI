@@ -1,0 +1,21 @@
+{
+  "source": "all",
+  "images": 1263,
+  "detections": 118418,
+  "total_crossings": {
+    "west_in": 226,
+    "east_in": 305,
+    "north_in": 267,
+    "south_in": 94
+  },
+  "total_flow": 892,
+  "bin_seconds": 10,
+  "forecast_steps": 360,
+  "outputs": {
+    "overlay": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\counting_lines_overlay_all.jpg",
+    "detections": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\detections_all.csv",
+    "flow_frame_level": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\flow_frame_level_all.csv",
+    "flow_aggregated": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\flow_10s_all.csv",
+    "forecast_metrics": "C:\\Users\\Admin\\Desktop\\Project AdvanceAi\\Project_AdvancedAI\\Exercise_3\\results\\forecast_metrics_all.csv"
+  }
+}

@@ -1,0 +1,21 @@
+source_id,series,model,MAE,RMSE
+zhandong_road1,west_in,naive_persistence,1.7647058823529411,2.14201664188625
+zhandong_road1,west_in,"ARIMA(1, 0, 1)",1.2832406529327034,1.595595937594084
+zhandong_road1,east_in,naive_persistence,1.2352941176470589,1.7320508075688772
+zhandong_road1,east_in,"ARIMA(1, 0, 1)",1.8126763429499981,2.0582124714071472
+zhandong_road1,north_in,naive_persistence,1.2941176470588236,1.6803361008336117
+zhandong_road1,north_in,"ARIMA(1, 0, 1)",0.7964747709792762,1.1408190911411664
+zhandong_road1,south_in,naive_persistence,0.8235294117647058,1.1881770515720091
+zhandong_road1,south_in,"ARIMA(1, 0, 1)",0.785242320019644,0.9290148886219131
+zhandong_road1,total_flow,naive_persistence,2.5294117647058822,3.19005808540147
+zhandong_road1,total_flow,"ARIMA(1, 0, 1)",2.307008951395984,3.0498796229363743
+zhandong_road2,west_in,naive_persistence,2.4444444444444446,2.943920288775949
+zhandong_road2,west_in,"ARIMA(1, 0, 1)",1.5971434993204656,1.9127166723022975
+zhandong_road2,east_in,naive_persistence,1.6666666666666667,2.0275875100994063
+zhandong_road2,east_in,"ARIMA(1, 0, 1)",1.2569341313208064,1.4892115673344546
+zhandong_road2,north_in,naive_persistence,1.3333333333333333,1.699673171197595
+zhandong_road2,north_in,"ARIMA(1, 0, 1)",1.2999584278534853,1.6006861680547222
+zhandong_road2,south_in,naive_persistence,0.6666666666666666,1.0540925533894598
+zhandong_road2,south_in,"ARIMA(1, 0, 1)",0.6421364863241171,0.7014483359701138
+zhandong_road2,total_flow,naive_persistence,4.111111111111111,5.044248650140519
+zhandong_road2,total_flow,"ARIMA(1, 0, 1)",2.5384261995488626,3.078054627090279
